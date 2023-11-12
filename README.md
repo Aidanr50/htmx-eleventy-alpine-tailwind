@@ -1,4 +1,4 @@
-# HEAT Stack
+# 🔥 HEAT Stack
 
 - ❤️ 11ty Static Site generator
 - ⚡️ Uses [Vite](https://vitejs.dev/) tooling.
