@@ -1,11 +1,25 @@
-import '../css/index.css';
+import "./index.css";
 
-import Alpine from 'alpinejs'
- 
-window.Alpine = Alpine
+import Htmx from 'htmx.org';
 
-// Add Alpine extensions here
- 
-Alpine.start()
+window.htmx = Htmx;
 
-console.log('hello from index.js')
+console.log('initialized htmx');
+
+import Alpine from 'alpinejs';
+import persist from '@alpinejs/persist';
+
+Alpine.plugin(persist);
+window.Alpine = Alpine;
+
+console.log('initialized alpinejs');
+
+Alpine.store('darkMode', {
+  on: Alpine.$persist(false).as('darkMode_on'),
+  
+  toggle() {
+    this.on = ! this.on
+  }
+});
+
+Alpine.start();
