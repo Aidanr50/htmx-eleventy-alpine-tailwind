@@ -31,13 +31,18 @@ To preview a production build:
 npm run preview
 ```
 
-### Deployment
+### Build
 
 To build for production:
 
 ```bash
 npm run build
 ```
+
+### Deploy on Github Pages.
+
+This repository contains an action to deploy on github pages on each push on main. Make sure you set the correct URL base in the vite configuration file. Read [The Vite Configuration Doc](https://vitejs.dev/guide/static-deploy.html#github-pages) for more information.
+
 
 ### Contributing
 
