@@ -1,7 +1,7 @@
 /* custom base styles */
 
 /* Compagnon Script by Chloé Lozano (http://www.velvetyne.fr/fonts/compagnon/) */
-@font-face {
+/* @font-face {
   font-family: Compagnon;
   font-style: bold;
   src: url('../fonts/Compagnon-Bold.woff2');
@@ -23,4 +23,4 @@
       select-auto
       cursor-pointer;
   }
-}
+} */
